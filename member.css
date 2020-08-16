@@ -1,0 +1,30 @@
+body #member-sec {
+  margin-top: 10rem;
+  height: 95vh;
+  background: url(./images/member-sec-bg.png);
+}
+
+body #member-sec .member-title {
+  padding-top: 3rem;
+  margin-left: 10rem;
+}
+
+body #member-sec .member-title h2 span {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+body #member-sec .swiper-container .swiper-wrapper .swiper-slide {
+  text-align: center;
+  padding: 4.5rem;
+}
+
+body #member-sec .swiper-container .swiper-wrapper .swiper-slide .slider-img {
+  width: 100%;
+}
+
+body #member-sec .swiper-container .swiper-wrapper .swiper-slide .member-txt {
+  padding-top: 3rem;
+  color: #fff;
+}
+/*# sourceMappingURL=member.css.map */

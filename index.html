@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./ress.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./loading.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
+      integrity="sha512-uCQmAoax6aJTxC03VlH0uCEtE0iLi83TW1Qh6VezEZ5Y17rTrIE+8irz4H4ehM7Fbfbm8rb30OkxVkuwhXxrRg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="member.css" />
+    <link rel="stylesheet" href="animation.css" />
+  </head>
+  <body>
+    <div class="loading-container">
+      <div class="loading">
+        <span>Loading...</span>
+      </div>
+    </div>
+    <header class="header">
+      <nav class="header-nav">
+        <a href="#"><img src="./images/logo.png" alt="" /></a>
+        <div class="nav-list">
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#business">BUSINESS</a></li>
+            <li><a href="#recruit">RECRUITE</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="top-container" id="">
+      <video
+        src="./video/top.mp4"
+        autoplay
+        loop
+        width="100%"
+        height="100%"
+      ></video>
+      <div class="news-container">
+        <div class="news-content">
+          <p class="news-title">NEWS</p>
+          <p class="news-details">
+            2020.6.18コーポレートサイト リニューアルのお知らせ
+          </p>
+          <button class="view-all-btn">VIEW ALL</button>
+        </div>
+        <div class="bg-opacity"></div>
+      </div>
+    </div>
+
+    <section class="about-sec">
+      <div class="about-container" id="about">
+        <div class="about-text-container">
+          <h2 class="about-title showup noshow">WHO WE ARE</h2>
+          <img
+            class="about-img showup noshow"
+            src="./images/about-hdg_pc.png"
+            alt=""
+          />
+          <div class="about-text-01 noshow">
+            <p>
+              ただ単純に広告を出すだけで売り上げが上がる。
+              そんな時代は終わってしまった。 だから今こそ、ADDICTの出番だ。
+            </p>
+          </div>
+
+          <div class="about-text-02 noshow">
+            <p>
+              ADDICTは、ターゲットの「欲しい」を引き出すプロ集団。<br />
+              考え抜かれたマーケティング戦略で<br />ターゲットのインサイトをぶっ刺し、<br />
+              彼らがまだ気づいていない"欲しい"を引き出します。
+            </p>
+          </div>
+          <div class="about-text-03 noshow">
+            <p>
+              私たちが目指すのは、<br />
+              ひとりひとりが何かに夢中になり、<br />
+              熱狂して生きる社会。
+            </p>
+          </div>
+          <div class="about-text-04 noshow">
+            <p>
+              心に刺さるマーケティングを武器に、<br />
+              熱狂に溢れた世の中を目指します。
+            </p>
+          </div>
+        </div>
+        <div class="about-bg-container">
+          <img class="about-bg-img" src="./images/about-bg01.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="business-sec" id="business">
+      <h2 class="business-title noshow">BUSINESS</h2>
+
+      <div class="business-container">
+        <div class="business-content">
+          <div class="business-01-content noshow">
+            <span>01</span>
+            <div class="business-01-text">
+              <h3>
+                Internet Advertisement
+              </h3>
+              <h4>インターネット広告事業部</h4>
+              <p class="business-01-description">
+                突き抜けたダイレクトマーケティングノウハウを駆使し、<br />
+                最先端のwebマーケティング手法を研究しております。<br />
+                専属クリエイター含め20人前後のチームで<br />
+                運営しており、行動学、人間心理に基づいた、<br />
+                『つい、〇〇しちゃう』クリエイティブを日々制作しています。
+              </p>
+            </div>
+          </div>
+          <div class="business-01-img-container">
+            <img class="business-01-img noshow" src="./images/business-img01.png" alt="" />
+          </div>
+
+          <div class="business-02-content noshow">
+            <span>02</span>
+            <div class="business-02-text">
+              <h3>
+                Direct To Consumer
+              </h3>
+              <h4>D2C事業部</h4>
+              <p class="business-02-description">
+                トレンドを抑えた独自商品の企画・開発・製造・販売・CRM<br />
+                までをワンストップで行っております。<br />
+                独自のマーケティングを通して隠された需要を捉え、<br />
+                価値ある商品を提供しております。<br />
+              </p>
+            </div>
+          </div>
+          <div class="business-02-img-container">
+            <img class="business-02-img noshow" src="./images/business-img02.png" alt="" />
+          </div>
+
+          <div class="business-03-content noshow">
+            <span>03</span>
+            <div class="business-03-text">
+              <h3>
+                business devlopement
+              </h3>
+              <h4>
+                新規事業開発部
+              </h4>
+              <p class="business-03-description">
+                自社のマーケティング力をリソースに、<br />
+                年商10億円以上狙える領域で、新規事業を創出しております。<br />
+                たっぷりの予算と裁量をまるっとお渡しします。 HOT PEPPER
+                Beauty<br />
+                AWARD 2020 BEST SALON受賞ブティック
+                サロン様と新規事業進行中。<br />
+              </p>
+            </div>
+          </div>
+          <div class="business-03-img-container">
+            <img class="business-03-img noshow" src="./images/business-img03.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="company-sec" id="company">
+      <div class="company-container">
+        <div class="company-content">
+          <div class="company-title-container">
+            <h2 class="company-title">COMPANY</h2>
+          </div>
+          <div class="company-profile-container">
+            <h3 class="company-profile-title">PROFILE</h3>
+            <div class="company-profile-content">
+              <div class="company-profile-img-container">
+                <img
+                  class="company-profile-img"
+                  src="./images/profile-img.png"
+                  alt=""
+                />
+                <img
+                  src="./images/profile-img2.png"
+                  alt=""
+                  class="company-profile-img-02"
+                />
+              </div>
+              <div class="profile-table-container">
+                <dl>
+                  <dt>会社名</dt>
+                  <dd>株式会社ADDICT</dd>
+                </dl>
+                <dl>
+                  <dt>代表</dt>
+                  <dd>福田雄二</dd>
+                </dl>
+                <dl>
+                  <dt>設立</dt>
+                  <dd>2019年2月22日</dd>
+                </dl>
+                <dl>
+                  <dt>資本金</dt>
+                  <dd>985万円</dd>
+                </dl>
+                <dl>
+                  <dt>所在地</dt>
+                  <dd>​東京都渋谷区恵比寿西１丁目33番6号 coba恵比寿</dd>
+                </dl>
+                <dl>
+                  <dt>連絡先</dt>
+                  <dd>03-6912-2570</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="member-sec">
+      <div class="member-title">
+        <h2>
+          <span>
+            MEMBER
+          </span>
+        </h2>
+      </div>
+
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="slider-img" src="./images/maco.png" alt="" />
+            <p class="member-txt">
+              <span>
+                現役阪大生。みんなのディレクション業務をきっちりサポート。
+              </span>
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="./images/maco.png" alt="" />
+            <p class="member-txt">
+              <span>
+                現役阪大生。みんなのディレクション業務をきっちりサポート。
+              </span>
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="./images/maco.png" alt="" />
+            <p class="member-txt">
+              <span>
+                現役阪大生。みんなのディレクション業務をきっちりサポート。
+              </span>
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="./images/maco.png" alt="" />
+            <p class="member-txt">
+              <span>
+                現役阪大生。みんなのディレクション業務をきっちりサポート。
+              </span>
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img class="slider-img" src="./images/maco.png" alt="" />
+            <p class="member-txt">
+              <span>
+                現役阪大生。みんなのディレクション業務をきっちりサポート。
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <section class="recruit-sec" id="recruit">
+      <div class="recruit-container">
+        <h2>RECRUIT</h2>
+        <div class="recruit-hd-01">
+          <p>
+            最近自分が買って良かったモノ、<br />
+            定価の一割引で300個売ってください！<br />
+            よーいどん！
+          </p>
+        </div>
+        <div class="recruit-text-container">
+          <div class="text-01">
+            <p>
+              と言われた時に、あなたならどうしますか？<br />
+              昔の私ならこう思います。
+            </p>
+          </div>
+
+          <div class="text-02">
+            <p>
+              ー「まず友達にお願いして30個くらい売って、<br />
+              その後メルカリに出して...
+            </p>
+          </div>
+          <div class="text-03">
+            <p>
+              ーあれ、メルカリってどれくらい売れるんだろ？<br />
+              いや、出品されてるのめっちゃ安いな...
+            </p>
+          </div>
+          <div class="text-04">
+            <p>
+              ーやっぱり友達にも売ってもらうの協力してもらうか...<br />
+              言いにくいなぁ...<br />
+              渋谷のスクランブル交差点で道行く人に声かける？<br />
+              ん〜〜どうしよう...泣」
+            </p>
+          </div>
+          <div class="text-05">
+            <p>
+              私たちは、マーケドリブンな脳の使い方で、<br />
+              精度高く300個売る方法を知っています。
+            </p>
+          </div>
+          <div class="text-06">
+            <p>
+              基本的欲求が満たされた現代の日本では、<br />
+              欲求やニーズが強烈なスピードで多角化、細分化されており、<br />
+              日に日に本質的なマーケティングの重要性が高まっています。<br />
+              マーケティングというレンズを通してみる世界は、面白いですよ！
+            </p>
+          </div>
+        </div>
+        <div class="recruit-bg-container">
+          <img
+            class="recruit-bg-img"
+            src="./images/recruit-img-pc.png"
+            alt=""
+          />
+        </div>
+        <div class="recruit-bg02-container">
+          <img
+            class="recruit-bg02-img"
+            src="./images/recruit-img-pc02.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="recruit-text-container-bg"></div>
+      <div class="recruit-02-container">
+        <div class="recruit-02-img-container">
+          <img src="./images/recruit-hdg_pc.png" alt="" />
+        </div>
+        <div class="recruit-details-container">
+          <div class="recruit-details-img-container">
+            <img
+              class="recruit-details-img"
+              src="./images/recruit-img02.jpg"
+              alt=""
+            />
+          </div>
+          <div class="recruit-details-txt-container">
+            <div class="recruit-details-table">
+              <dl>
+                <dt>やること</dt>
+                <dd>
+                  クライアントの商品やサービスの広告戦略設計、<br />
+                  クリエイティブ制作、ランディングページ制作、広告運用
+                </dd>
+              </dl>
+              <dl>
+                <dt>求める人物像</dt>
+                <dd>GIVER、やり切る力、ポジティブ</dd>
+              </dl>
+              <dl>
+                <dt>給与</dt>
+                <dd>月給30万〜</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-sec" id="contact">
+      <div class="contact-container">
+        <div class="contact-content">
+          <h2 class="contact-title">
+            CONTACT
+          </h2>
+          <p class="contact-txt">
+            以下のフォームより、お気軽にお問い合わせください。<br />
+            お問い合わせ内容の確認後、担当者よりご連絡をさせていただきます。
+          </p>
+          <div class="contact-form-container">
+            <form class="contact-form" action="">
+              <table class="contact-table">
+                <tbody class="contact-table-body">
+                  <tr>
+                    <th>お名前</th>
+                    <td>
+                      <span><input type="text" name="" id="" /></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>メールアドレス</th>
+                    <td>
+                      <span><input type="mail" name="" id="" /></span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>お問い合わせ内容</th>
+                    <td>
+                      <span>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                      </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="contract">
+                <span>
+                  <p>
+                    <a href="#">「個人情報の取り扱い」</a>
+                    をご確認いただき、同意のうえご送信ください。
+                  </p>
+                </span>
+              </div>
+              <div class="submit-btn-wrap">
+                <button class="submit-btn" type="submit">
+                  同意して送信する
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <nav class="footer-nav">
+        <a href="#" class="footer-logo"
+          ><img src="./images/footer-logo.png" alt=""
+        /></a>
+        <div class="footer-nav-list">
+          <ul>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#business">BUSINESS</a></li>
+            <li><a href="#recruit">RECRUITE</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+
+    <section class="copy-right-sec">
+      <p>
+        Copyright © 2020 ADDICT All Rights Reserved.
+      </p>
+    </section>
+
+    <script src="./js/loading.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"
+      integrity="sha512-VHsNaV1C4XbgKSc2O0rZDmkUOhMKPg/rIi8abX9qTaVDzVJnrDGHFnLnCnuPmZ3cNi1nQJm+fzJtBbZU9yRCww=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/member-slider.js"></script>
+    <script src="./js/animation.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

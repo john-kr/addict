@@ -1,0 +1,34 @@
+body {
+  & #member-sec {
+      margin-top: 10rem;
+      height: 95vh;
+      background: url(./images/member-sec-bg.png);
+
+    & .member-title {
+        padding-top: 3rem;
+        margin-left: 10rem;
+        & h2 {
+            & span {
+                color: #fff;
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    & .swiper-container {
+      & .swiper-wrapper {
+        & .swiper-slide {
+          text-align: center;
+          padding: 4.5rem;
+          & .slider-img {
+            width: 100%;
+          }
+          & .member-txt {
+              padding-top: 3rem;
+              color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

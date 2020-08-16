@@ -1,0 +1,12 @@
+.showup {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  opacity: 1 !important;
+}
+
+.noshow {
+  opacity: 0;
+}
+/*# sourceMappingURL=animation.css.map */

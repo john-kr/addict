@@ -1,0 +1,22 @@
+.showup {
+        transform: translateY(0);
+        transition: all 1s ease-in;
+        opacity: 1 !important;
+}
+
+& .showleft {
+    transform: translateX(0);
+    transition: all 1s ease-in;
+    opacity: 1 !important;
+}
+
+& .showright {
+    transform: translateX(0);
+    transition: all 1s ease-in;
+    opacity: 1 !important;
+}
+
+
+.noshow {
+    opacity: 0;
+}
